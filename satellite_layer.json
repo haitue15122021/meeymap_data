@@ -1,0 +1,24 @@
+{
+  "sources": {
+    "id": "satellite_layer",
+    "type": "raster",
+    "tiles": [
+      "https://mt0.google.com/vt/lyrs=s,h&hl=vi&x={x}&y={y}&z={z}"
+    ],
+    "tileSize": 256
+  },
+  "layers": [
+    {
+      "id": "satellite_layer",
+      "type": "raster",
+      "source": "satellite_layer",
+      "layout": {
+        "visibility": "visible"
+      },
+      "paint": {
+        "raster-opacity": 1.0
+      }
+    }
+  ]
+}
+
