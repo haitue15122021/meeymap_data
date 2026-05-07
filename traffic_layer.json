@@ -1,0 +1,25 @@
+{
+  "version": 8,
+  "sources": {
+    "traffic_source": {
+      "type": "raster",
+      "tiles": [
+        "https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}"
+      ],
+      "tileSize": 256
+    }
+  },
+  "layers": [
+    {
+      "id": "traffic_layer",
+      "type": "raster",
+      "source": "traffic_source",
+      "layout": {
+        "visibility": "visible"
+      },
+      "paint": {
+        "raster-opacity": 1
+      }
+    }
+  ]
+}
