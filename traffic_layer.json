@@ -4,7 +4,7 @@
     "traffic_source": {
       "type": "raster",
       "tiles": [
-        "https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}"
+        "https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}&hl=vn"
       ],
       "tileSize": 256
     }
